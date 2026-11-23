@@ -1,0 +1,38 @@
+ELENCO & ETICHETTE - VERSIONE DIMOSTRATIVA
+
+Il programma è quello usato in ufficio, senza modifiche. Non contiene dati:
+nella cartella Dati_di_prova ci sono quattro tabelle inventate per provarlo.
+Nomi, indirizzi ed email non corrispondono a persone reali.
+
+COME APRIRLO
+Apri Etichette_Locali.html con Chrome, Edge o Brave aggiornato.
+Non serve Internet e non serve installare nulla.
+
+LE TABELLE DI PROVA
+1. Elenco_anagrafico_di_prova.xlsx
+   Titolo nella prima riga e intestazione nella seconda: il programma la
+   riconosce da solo. Due fogli (Elenco e Note). 37 righe con casi difficili:
+   nomi e indirizzi molto lunghi, un indirizzo vuoto, spazi in eccesso,
+   apostrofi, una cella che inizia con "=" e una riga duplicata.
+2. Soci_associazione_di_prova.csv
+   Separatore punto e virgola, colonna email.
+3. Destinatari_circolare_di_prova.tsv
+   Valori separati da tabulazione.
+4. Esportazione_gestionale_di_prova.xls
+   Un finto .xls che in realtà contiene una tabella HTML, come fanno alcuni
+   gestionali. Intestazione nella seconda riga.
+
+COSA PROVARE
+- Scegli i campi, il testo fisso e l'ordine delle righe dell'etichetta.
+- Il campo "Comune di residenza" ha un valore fisso predefinito:
+  con questi dati scrivi Borgo Esempio.
+- Cambia formato: predefinito A4 con 24 etichette (3 x 8, 70 x 36 mm),
+  oppure 99,1 x 34 mm, oppure misure tue.
+- Salva il progetto in JSON e riaprilo.
+
+STAMPA
+Scala 100%, A4, margini nessuno, senza intestazioni e piè di pagina.
+Prima di usare i fogli di etichette fai una prova su carta comune.
+
+Verifiche fatte: caricamento delle quattro tabelle in Chrome su Linux,
+con riconoscimento corretto delle intestazioni e nessun errore.

@@ -1,0 +1,15 @@
+ELENCO & ETICHETTE — PROGRAMMA LOCALE
+
+Estrai la cartella ZIP e apri Etichette_Locali.html in Chrome, Edge o Brave aggiornato. Il programma funziona senza Internet.
+
+Carica una tabella. Per il file di prova Dati_di_prova/Elenco_anagrafico_di_prova.xlsx il programma individua la seconda riga come intestazione e propone cognome e nome, Comune di residenza e indirizzo attuale. Controlla l'anteprima prima di stampare.
+
+Puoi scegliere quali campi usare, modificare il testo fisso, cambiare l'ordine o il testo delle etichette. Con altre tabelle puoi selezionare qualunque colonna. In Opzioni avanzate puoi scegliere il foglio e correggere la riga delle intestazioni. Puoi anche cambiare misure, numero di righe e colonne, distanze e margini per altri fogli.
+
+Il formato predefinito è UT101700: A4, 24 etichette (3 colonne x 8 righe), 70 x 36 mm, margine superiore 6 mm, margine laterale 0 mm, passo orizzontale 70 mm, passo verticale 36 mm. Sono le impostazioni del foglio di etichette usato in ufficio; puoi modificarle per altri fogli. È disponibile anche un formato indicativo 99,1 x 34 mm.
+
+Il testo della prima colonna inizia a 10 mm dal bordo sinistro del foglio (valore regolabile in "Spazio sinistro prima colonna"). Il passo delle etichette resta invariato.
+
+Per stampare o salvare in PDF usa scala 100%, A4, margini nessuno e disattiva intestazioni e piè pagina. Fai una prova su carta comune e confrontala in controluce con il foglio etichette.
+
+Supporta XLSX, CSV, TSV e file XLS che contengono tabelle HTML. I vecchi XLS binari devono essere prima salvati in XLSX. Le formule del foglio non vengono ricalcolate. Salva progetto conserva impostazioni e dati in un file JSON: conserva il file in un luogo adeguato. Il programma non contiene dati. Nella cartella Dati_di_prova trovi tabelle inventate per provarlo: vedi LEGGIMI_DEMO.txt.
